@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(12, 39, 71) !important;
+}
+
+h1 {
+  color: white;
+  margin: 5rem 0 5rem 25rem !important;
+}
+
+.carousel {
+  /* background-color: black; */
+  width: 90%;
+  border: 1px solid white;
+  margin: auto;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(100% / 4);
+  margin: 0.5em;
+}
+
+/* .card img {
+  width: 15rem !important;
+} */
+
+.carousel-control-prev {
+  transform: translateX(-70%);
+}
+
+.carousel-control-next {
+  transform: translateX(70%);
+}
+
+#stats {
+  color: white;
+}
+
+#statsContainer img,
+#newsContainer img {
+  width: 40%;
+  height: 20%;
+}
+
+#newsContainer {
+  color: white;
+}
